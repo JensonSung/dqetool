@@ -1,0 +1,13 @@
+target/
+.classpath
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.vscode
+.project
+.checkstyle
+*.DS_Store
+.idea
+dqetool.iml
+database0.db
+databaseconnectiontest.db
