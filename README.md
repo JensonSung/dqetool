@@ -33,7 +33,7 @@ java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 13107 --username postgres --
 | 5  | TiDB      | 5.3.0   | [TiDB#31708](https://github.com/pingcap/tidb/issues/31708)               | Fixed     |
 | 6  | TiDB      | 5.4.0   | [TiDB#32480](https://github.com/pingcap/tidb/issues/32480)               | Fixed     |
 | 7  | TiDB      | 5.4.0   | [TiDB#32556](https://github.com/pingcap/tidb/issues/32556)               | Fixed     |
-| 8  | TIDB      | 5.4.0   | [TiDB#32614](https://github.com/pingcap/tidb/issues/32614)         ~~~~      | Fixed     |
+| 8  | TIDB      | 5.4.0   | [TiDB#32614](https://github.com/pingcap/tidb/issues/32614)               | Fixed     |
 | 9  | TiDB      | 5.4.0   | [TiDB#32744](https://github.com/pingcap/tidb/issues/32744)               | Fixed     |
 | 10 | TiDB      | 5.4.0   | [TiDB#32802](https://github.com/pingcap/tidb/issues/32802)               | Fixed     |
 | 11 | TiDB      | 5.2.1   | [TiDB#28103](https://github.com/pingcap/tidb/issues/28103)               | Confirmed |
