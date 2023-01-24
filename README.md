@@ -1,7 +1,7 @@
 
 # DQETool
 
-DQETool is the implementation of differential query exeuction in paper.
+DQETool is the implementation of differential query execution in paper.
 
 # Getting Started
 
@@ -9,18 +9,16 @@ Requirements:
 * Java 11 or above
 * [Maven](https://maven.apache.org/) (`sudo apt install maven` on Ubuntu)
 * The DBMS that you want to test (currently support MariaDB, MySQL, TiDB, SQLite, CockroachDB)
-* SQLite is an embedded database, which does not need extra setup and does not requires connection parameters
+* SQLite is an embedded database, which does not need extra setup and does not require connection parameters
 * Other databases like MySQL, which requires connection parameters and needs to create a database named test
 ```
-git clone $url-to-this-repo$
 cd dqetool
 mvn package -DskipTests
 cd target
 java -jar dqetool-1.0.0.jar sqlite3
-java -jar dqetool-1.0.0.jar --host host --port port --username username --password password database
+java -jar dqetool-2.0.0.jar --host hostString --port portNumber --username usernameString --password passwordString databaseName
 java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 4000 --username root --password '' tidb
 java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 26257 --username cockroach --password cockroach cockroachdb
-java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 13107 --username postgres --password postgres postgres
 ```
 
 # Bug List
