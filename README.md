@@ -15,10 +15,10 @@ Requirements:
 cd dqetool
 mvn package -DskipTests
 cd target
-java -jar dqetool-1.0.0.jar sqlite3
-java -jar dqetool-2.0.0.jar --host hostString --port portNumber --username usernameString --password passwordString databaseName
-java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 4000 --username root --password '' tidb
-java -jar dqetool-1.0.0.jar --host 127.0.0.1 --port 26257 --username cockroach --password cockroach cockroachdb
+java -jar dqetool-*.jar sqlite3
+java -jar dqetool-*.jar --host hostString --port portNumber --username usernameString --password passwordString databaseName
+java -jar dqetool-*.jar --host 127.0.0.1 --port 4000 --username root --password '' tidb
+java -jar dqetool-*.jar --host 127.0.0.1 --port 26257 --username cockroach --password cockroach cockroachdb
 ```
 
 # Bug List
