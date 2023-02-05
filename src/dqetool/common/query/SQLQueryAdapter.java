@@ -100,7 +100,7 @@ public class SQLQueryAdapter extends Query<SQLConnection> {
             return true;
         } catch (Exception e) {
             Main.nrUnsuccessfulActions.addAndGet(1);
-            checkException(e);
+            //checkException(e);
             if (reportException) {
                 throw e;
             } else {
@@ -162,7 +162,7 @@ public class SQLQueryAdapter extends Query<SQLConnection> {
         } catch (Exception e) {
             s.close();
             Main.nrUnsuccessfulActions.addAndGet(1);
-            checkException(e);
+            //checkException(e);
             if (reportException) {
                 throw e;
             } else {
