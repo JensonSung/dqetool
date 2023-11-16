@@ -22,7 +22,7 @@ public class MySQLOptions implements DBMSSpecificOptions<MySQLOracleFactory> {
     public static final int DEFAULT_PORT = 3306;
 
     @Parameter(names = "--oracle")
-    public List<MySQLOracleFactory> oracles = Arrays.asList(MySQLOracleFactory.TLP);
+    public List<MySQLOracleFactory> oracles = Arrays.asList(MySQLOracleFactory.DQE);
 
     public enum MySQLOracleFactory implements OracleFactory<MySQLGlobalState> {
 

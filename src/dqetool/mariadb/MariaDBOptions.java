@@ -21,7 +21,7 @@ public class MariaDBOptions implements DBMSSpecificOptions<MariaDBOracleFactory>
     public static final int DEFAULT_PORT = 3306;
 
     @Parameter(names = "--oracle")
-    public List<MariaDBOracleFactory> oracles = List.of(MariaDBOracleFactory.NOREC);
+    public List<MariaDBOracleFactory> oracles = List.of(MariaDBOracleFactory.DQE);
 
     public enum MariaDBOracleFactory implements OracleFactory<MariaDBGlobalState> {
 
